@@ -60,7 +60,8 @@ font-family: "Playwrite BE VLG", cursive;
     background-color: rgb(230, 83, 60);
 }
 .manu-bar{
-   
+   width: 20px;
+   height: 20px;
   display: none;
     /* margin-right: 30px; */
 }
