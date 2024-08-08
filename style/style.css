@@ -797,7 +797,9 @@ font-weight: 400;
     .bmi-chat h3,.bmi-calcul h3,th{
         font-size: 1rem;
     }
-    
+    .bmi-chat{
+        padding: 0;
+    }
     .image1{
         width: 100%;
         display: flex;
@@ -808,7 +810,7 @@ font-weight: 400;
     
     input,.select1{
         padding: 13px 70px 13px 20px;
-        width: 36%;
+        width: 30%;
         
     }
     form{
