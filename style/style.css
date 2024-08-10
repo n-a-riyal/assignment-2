@@ -487,11 +487,15 @@ select option{
     
 }
 input[type="number"],select{
-   color: rgba(255, 255, 255, 0.5);
-   font-size: 1.5rem;
-   padding: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    padding: 20px;
 }
-
+#sex{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    padding: 20px;
+}
 input,select{
     border-radius: 8px;
 
@@ -636,90 +640,24 @@ font-size: 1.25rem;
 font-weight: 400;
 }
 
-/* @media screen and (max-width:576px) {
+@media screen and (min-width:577px) and (max-width:768px){
     *{
         margin: 0;
         
     }
-    .manu-bar-des{
-        display: none;
-        
-    }
-
-    .manu-bar{
-        display: flex;
-     width: 30px;
-     height: 30px;
-  
-    }
     .praimary-width{
-        width: 100%;
-       
-    }
-   
-    .banner-texts,.banner-hero{
-        width: 100%;
+        width: 95%;
     }
     
-    .extra-run-text,.bmi-cal-table{
-        padding: 20px;
-    }
-    .extra-run-text,.extra-run-image img,.bmi-text,.bmi-chat,.bmi-calcul{
-        width: calc(100% - 40px);
-    }
-    form{
-        width: 100%;
-    }
-    
-    .extra-run-image img,th,td{
-        padding: 20px;
-    }
-    
-    .change-habits-images,.meet-images{
-        grid-template-columns: 1fr;
-    }
 
-    .image-container,.banner-texts{
-       margin-bottom: 50px;
-    }
-    .btn1,.extra-run-text,.bmi-chat{
-        margin-bottom: 20px;
-    }
-    .change-habits-text,.team-text{
-        width: 90%;
-    }
-  input,.select1{
-    width: 40%;
-    height: 10px;
-    padding: 20px;
-    display: inline-block;
- 
-  }
-  .select1,.select2{
-    padding:20;
-    width: 125%;
-    height: 70px;
     
-  }
    
-
-    .footer-container,.banner-section-container,.extra-run-container,.bmi-cal-table-container{
-        flex-direction: column;
-      
-        
-    }
-    .meet-image{
-        height: 350px;
-    }
-    .footer-container{
-        gap: 30px;
-    }
-    .f-container-1{
-        width: 90%; 
-         
-        }
+   
     
-} */
+   
+  
+    
+}
  @media  screen and (max-width:576px) {
     .praimary-width{
         max-width: 90%;
@@ -799,6 +737,7 @@ font-weight: 400;
     }
     .bmi-chat{
         padding: 0;
+        margin-bottom: 20px;
     }
     .image1{
         width: 100%;
@@ -808,18 +747,28 @@ font-weight: 400;
         margin-bottom: 10px;
     }
     
-    input,.select1{
+    input{
         padding: 13px 70px 13px 20px;
-        width: 30%;
+        width: 35%;
         
+    }
+    .select1{
+        padding: 13px 30px 13px 20px;
+        width: 45%;
     }
     form{
         width: 160%;
     }
     .select2{
-        width:90% ;
+        width:94% ;
     }
     
-
+    .image1 img,
+    .meet-image{
+        height: 80%;
+    }
+    #sex{
+        padding: 0;
+    }
 
  }
