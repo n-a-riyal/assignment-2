@@ -421,6 +421,7 @@ width: 35%;
 }
 .bmi-calcul{
 width: 65%;
+margin-left: 100px;
 }
 .bmi-text p,.bmi-calcul-text p,td{
     font-size: 1rem;
@@ -738,6 +739,9 @@ font-weight: 400;
     }
     .bmi-chat h3,.bmi-calcul h3,th{
         font-size: 1rem;
+    }
+    .bmi-calcul{
+        margin: 0%;
     }
     .bmi-chat{
         padding: 0;
